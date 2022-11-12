@@ -28,7 +28,7 @@ namespace Tyrannoport.Models
 
         public string Name => _test.Name;
 
-        public string MethodName => _test.TestMethod.Name;
+        public string MethodName => _result.TestName;
 
         public string ClassName => _test.TestMethod.ClassName;
 
